@@ -9,7 +9,7 @@ wordpress:
    - "80"
   working_dir: /var/www/html/
   volumes:
-     - /code/miqueladell_v2/html/:/var/www/html/
+     - html/:/var/www/html/
 
 wordpress_db:
   image: miqueladell/mariadb-utf8mb4
