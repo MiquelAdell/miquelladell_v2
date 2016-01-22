@@ -1,5 +1,5 @@
 # miqueladell_v2
-## Version 0.0.1
+## Version 0.3.0
 docker instructions and dynamic contents for the blog miqueladell_v2
 
 # TODO

@@ -1,5 +1,5 @@
 wordpress:
-  image: miqueladell/composed_wordpress_test
+  image: wordpress
   links:
     - wordpress_db:mysql
   environment:
