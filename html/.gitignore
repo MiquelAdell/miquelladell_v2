@@ -1,0 +1,5 @@
+vendor/**
+wordpress/wp-admin/**
+wordpress/wp-includes/**
+wordpress/wp-content/plugins/**
+wordpress/wp-content/themes/**

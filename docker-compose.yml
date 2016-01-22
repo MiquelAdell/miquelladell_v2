@@ -1,5 +1,5 @@
 wordpress:
-  image: wordpress
+  image: miqueladell/composed_wordpress:1.0.0
   links:
     - wordpress_db:mysql
   environment:
@@ -16,9 +16,9 @@ wordpress_db:
   environment:
      - MYSQL_ROOT_PASSWORD=password
 
-# phpmyadmin:
-#   image: corbinu/docker-phpmyadmin
-#   links:
-#     - wordpress_db:mysql
-#   ports:
-#     - "8181:80"
+phpmyadmin:
+  image: corbinu/docker-phpmyadmin
+  links:
+    - wordpress_db:mysql
+  ports:
+    - "8181:80"
